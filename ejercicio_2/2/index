@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_2</title>
+</head>
+<body>
+    <form action="control.php" method="get">
+        <label for="distancia">Distancia</label>
+        <input type="text" name="distancia"> <br>
+        <label for="velocidad">Velocidad</label>
+        <input type="text" name="velocidad">
+        <input type="submit" value="Enviar">      
+    </form>
+</body>
+</html>
