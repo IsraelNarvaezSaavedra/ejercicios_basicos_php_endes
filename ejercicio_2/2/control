@@ -1,0 +1,11 @@
+<?php
+
+$distancia = $_GET['distancia'];
+$velocidad = $_GET['velocidad'];
+echo "<br>Distancia: $distancia km y la velocidad: $velocidad km/h";
+$tiempo = $distancia / $velocidad;
+echo "<br>La estimación es de tiempo es $tiempo horas";
+
+?>
+<br>
+<a href="index.php">Atras</a>
